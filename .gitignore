@@ -1,5 +1,5 @@
 #Exclude RAW Data
-csv-raw/
+csv-raw/*.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
