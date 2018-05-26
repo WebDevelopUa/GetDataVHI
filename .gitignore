@@ -1,3 +1,6 @@
+#Exclude RAW Data
+csv-raw/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
