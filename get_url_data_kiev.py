@@ -1,5 +1,5 @@
 # coding=utf-8
-# Python скрипт для скачивания данных Vegetation Health Index (VHI) - Mean
+# Python скрипт для скачивания Средних данных для Киева (ID=11): SMN, SMT, VCI, TCI, VHI
 # с сайта https://www.star.nesdis.noaa.gov/smcd/emb/vci/VH/vh_browseByCountry.php
 
 # urllib2 это модуль Python для работы с URL-адресом
