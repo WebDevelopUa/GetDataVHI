@@ -7,12 +7,12 @@ import pandas as pd
 # функция загружает данные в DataFrame и выводит результат на консоль
 def dataframe_upload(file_upload):
     # загрузим файл .csv с помощью функции read_csv() и отформатируем вывод данных
+    # https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html
+    # https://www.ntu.edu.sg/home/ehchua/programming/howto/Regexe.html
     df = pd.read_csv(
         file_upload,
-        engine='python',
         delimiter='\,\s+|\,|\s+',
-        skiprows=1,
-        # header=1,
+        engine='python',
         index_col=False,
         names=["year", "week", "SMN", "SMK", "VCI", "TCI", "VHI"]
     )
