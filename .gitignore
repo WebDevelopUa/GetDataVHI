@@ -1,5 +1,8 @@
-#Exclude RAW Data
+# Exclude RAW Data
 csv-raw/*.csv
+
+# But not these files...
+!vhi_id_11_2018-05-27_01-37.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
