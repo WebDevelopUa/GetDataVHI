@@ -21,6 +21,10 @@ for file_ in allFiles:
 
 # создние списка областей Украины и г. Киева
 frame = pd.concat(list_)
+
+# экспорт даных с DataFrame в новый файл в папке csv
+frame.to_csv('csv/export_data1.csv')
+
 print list(frame)
 
 # вывод всех таблиц всех областей Украины
