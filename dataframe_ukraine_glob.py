@@ -17,6 +17,7 @@ for file_ in allFiles:
                      index_col=False,
                      names=["year", "week", "SMN", "SMK", "VCI", "TCI", "VHI"]
                      )
+
     list_.append(df)
 
 # создние списка областей Украины и г. Киева
