@@ -11,7 +11,7 @@ df = pd.read_csv('csv-raw/vhi_id_12_2018-05-27_14-33.csv',
                  delimiter='\,\s+|\,|\s+',
                  skiprows=1,
                  index_col=False,
-                 names=["year", "week", "SMN", "SMK", "VCI", "TCI", "VHI"]
+                 names=["year", "week", "SMN", "SMT", "VCI", "TCI", "VHI"]
                  )
 
 # вывод имен столбцов

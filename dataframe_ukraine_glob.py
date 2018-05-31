@@ -15,7 +15,7 @@ for file_ in allFiles:
                      delimiter='\,\s+|\,|\s+',
                      engine='python',
                      index_col=False,
-                     names=["year", "week", "SMN", "SMK", "VCI", "TCI", "VHI"]
+                     names=["year", "week", "SMN", "SMT", "VCI", "TCI", "VHI"]
                      )
 
     list_.append(df)
